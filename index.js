@@ -66,3 +66,7 @@ function largest(num1, num2, num3){
     else{return num3}
 }
 //console.log(largest(4,5,3));
+function printTime(){let today = new Date();
+let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+return time}
+console.log(printTime());
