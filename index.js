@@ -52,4 +52,7 @@ function isNegative(num){
     }
 }
 //console.log(isNegative(7));        
-
+function triangleArea(height, base){
+    return 1/2 * base * height;
+}
+//console.log(triangleArea(5,7));
