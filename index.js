@@ -27,3 +27,8 @@ function untilNum(int){
     }
 }
 //console.log(untilNum(12))
+
+function multiply(num1,num2){
+    return num1 * num2;
+}
+//console.log(multiply(50,5642));
