@@ -32,3 +32,11 @@ function multiply(num1,num2){
     return num1 * num2;
 }
 //console.log(multiply(50,5642));
+function add(num1,num2){
+    if(num1!==num2){
+        return num1 + num2
+    }else{ return (num1 + num2) * 3
+        
+    }
+}
+//console.log(add(2,2));
