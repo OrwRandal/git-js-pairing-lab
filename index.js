@@ -40,3 +40,16 @@ function add(num1,num2){
     }
 }
 //console.log(add(2,2));
+
+function isNegative(num){
+    if (num<0){
+        return true;
+    } else if (num === 0){
+        return "Not potivie or negative"
+
+    }else {
+        return false;
+    }
+}
+//console.log(isNegative(7));        
+
