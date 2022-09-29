@@ -56,3 +56,7 @@ function triangleArea(height, base){
     return 1/2 * base * height;
 }
 //console.log(triangleArea(5,7));
+function betweenTwentyAndFourty(num){
+    return num < 40 && num > 20;
+}
+//console.log(betweenTwentyAndFourty(21));
